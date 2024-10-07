@@ -1,0 +1,27 @@
+.top head{
+    text-align: center;
+    color: aqua;
+    font-size: 40px;
+}
+.planet-list{
+    font-size: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+.planet-list li::before{
+    content:"🚀";
+    margin-right: 10px;
+}
+.planet-list{
+    margin-bottom: 10px;
+}
+.planet-list li:first-child{
+    color: blue;
+}
+.planet-list li:nth-child(6){
+    color: red;
+}
+.planet-list li:hover{
+    color: green;
+    cursor: pointer;
+}
